@@ -15,7 +15,7 @@ while not rospy.is_shutdown():
  home.header.seq=0;
  home.header.stamp=rospy.Time.now()
  home.header.frame_id="map"
-#pose info (taken from spawn point)
+#pose info
  home.pose.position.x=-1.14915668964
  home.pose.position.y=-0.526947319508
  home.pose.position.z=0.0
