@@ -26,7 +26,7 @@ while not rospy.is_shutdown():
  
 # a delay so the publisher can find time to make a connection with any subscribers      
  rospy.sleep(1)
-
+# printing a simple informing message and publishing the info 
  rospy.loginfo("goal published. going home.... ID is:%d",home.header.seq)
  pub.publish(home)
 
